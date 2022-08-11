@@ -1,2 +1,2 @@
-n = int(input())
+n = ord(input())  # 정수 int로 바꿀시 오류가 남. c++과 차이점. c++은 자동으로 아스키 코드값으로 변환시켜줌.
 print(n)

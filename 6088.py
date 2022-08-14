@@ -1,0 +1,6 @@
+a, d, n = input().split()
+a = int(a)
+d = int(d)
+n = int(n)
+value = a+d*(n-1)
+print(value)
